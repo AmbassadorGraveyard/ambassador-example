@@ -6,7 +6,7 @@ $(document).ready(function() {
     
     $('[data-hover="dropdown"]').dropdownHover();
     
-    /* ======= Fixed header when scrolled ======= */    
+    /* ======= Fixed header when scrolled (Disabled) =======     
     $(window).on('scroll load', function() {
          
          if ($(window).scrollTop() > 0) {
@@ -17,6 +17,7 @@ $(document).ready(function() {
              
          }
     });
+    */
     
     
     /* ======= jQuery Placeholder ======= */
